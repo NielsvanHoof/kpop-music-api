@@ -1,0 +1,4 @@
+extend type Query {
+    artists: [Artist!]! @paginate
+    artist(id: ID! @eq): Artist @find
+}

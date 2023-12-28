@@ -1,0 +1,10 @@
+type Artist {
+    id:ID!
+    name:String!
+    debuted_at:String!
+    is_active:Boolean!
+    deleted_at:String
+    created_at:String!
+    updated_at:String!
+}
+
